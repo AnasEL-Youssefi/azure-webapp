@@ -30,6 +30,7 @@ AZURE_WEBAPP_PUBLISH_PROFILE → paste the content of your downloaded publish pr
 
 Deploy Automatically
 Every push to main triggers:
+
 '''bash
 npm install
 npm run build (if defined)
