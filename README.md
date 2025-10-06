@@ -1,14 +1,13 @@
-🚀 Azure Web App Deployment (via GitHub Actions)
+# 🚀 Azure Web App Deployment (via GitHub Actions)
 
 This project automatically deploys to Azure Web App using GitHub Actions whenever changes are pushed to the main branch.
 
-🧩 Workflow File
 
-The deployment workflow is defined in:
+# The deployment workflow is defined in:
 
 .github/workflows/azure-webapps-node.yml
 
-⚙️ Setup Instructions
+#  Setup Instructions
 
 Create an Azure Web App
 
@@ -31,14 +30,14 @@ AZURE_WEBAPP_PUBLISH_PROFILE → paste the content of your downloaded publish pr
 
 Deploy Automatically
 Every push to main triggers:
-
+'''bash
 npm install
 npm run build (if defined)
 
 
 Then deploys the app to Azure.
 
-✅ Example Log
+
 
 In GitHub → Actions tab → you’ll see:
 
